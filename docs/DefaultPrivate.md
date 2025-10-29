@@ -1,5 +1,7 @@
 # Blueprint 変数・関数のデフォルトアクセス指定子を`private`にする
 
+確認version: 5.6.0
+
 Engine\Source\Editor\UnrealEd\Private\Kismet2\BlueprintEditorUtils.cpp
 4721行目あたり
 ``` C++
