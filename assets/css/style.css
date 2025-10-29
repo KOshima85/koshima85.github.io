@@ -2,3 +2,9 @@
 ---
 
 @import "{{ site.theme }}";
+
+.inner {
+	width: 90%;
+	min-width: 800px;
+    margin: 0 auto;
+}
