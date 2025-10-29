@@ -25,7 +25,7 @@ Engine\Source\Editor\UnrealEd\Public\Kismet2\BlueprintEditorUtils.h
 			{
 				// We need to flag the entry node to make sure that the compiled function is callable from Kismet2
 				int32 ExtraFunctionFlags = ( FUNC_BlueprintCallable | FUNC_BlueprintEvent | FUNC_Private ); // 関数の初期アクセス権をPrivateに
-				if ( Blueprint->BlueprintType == BPTYPE_Interface )
+				if ( BPTYPE_Interface == Blueprint->BlueprintType )
 				{
 					// Interface の場合はpublicにする必要がある
 					ExtraFunctionFlags = (FUNC_BlueprintCallable | FUNC_BlueprintEvent | FUNC_Public);
