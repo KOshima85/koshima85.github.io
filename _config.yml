@@ -3,3 +3,5 @@ redcarpet:
   extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "strikethrough", "superscript"]
 theme: jekyll-theme-tactile
 highlighter: pygments
+title: DevMemo
+description: 開発時の備忘録
