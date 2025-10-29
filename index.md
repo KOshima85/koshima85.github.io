@@ -1,6 +1,3 @@
-## Memo
-
-開発時の備忘録
 
 ## Unreal Engine 5
 
