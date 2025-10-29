@@ -1,8 +1,3 @@
----
----
-
-@import "{{ site.theme }}";
-
 # Memo
 
 開発時の備忘録
