@@ -4,7 +4,7 @@
 
 Engine\Source\Editor\UnrealEd\Private\Kismet2\BlueprintEditorUtils.cpp
 4721行目あたり
-``` C++
+```C++
 FBlueprintEditorUtils::AddMemberVariable(UBlueprint* Blueprint, const FName
 		NewVar.SetMetaData(TEXT("MultiLine"), TEXT("true"));
 	}
@@ -18,7 +18,7 @@ FBlueprintEditorUtils::AddMemberVariable(UBlueprint* Blueprint, const FName
 
 Engine\Source\Editor\UnrealEd\Public\Kismet2\BlueprintEditorUtils.h
 356行目あたり
-``` C++
+```C++
 			if ( bIsUserCreated )
 			{
 				// We need to flag the entry node to make sure that the compiled function is callable from Kismet2
