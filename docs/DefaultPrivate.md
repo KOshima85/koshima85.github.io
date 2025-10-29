@@ -1,3 +1,5 @@
+[DevMemo](../index.md)
+
 # Blueprint 変数・関数のデフォルトアクセス指定子を`private`にする
 
 確認version: 5.6.0
